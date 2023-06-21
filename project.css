@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    font-family:'Kumbh Sans', sans-serif;
+}
+
+nav{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+nav h2 {
+    font-weight: 700;
+
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    color: Light grayish rgb(164, 164, 255);
+}
+nav img {
+    width: 50px;
+    height: 50px;
+}
+.img {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgb(216, 213, 213);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+ i {
+    padding-top: 5px;
+
+
+}
+li {
+    display: block;
+    position: relative;
+    cursor: pointer; 
+}
+
+nav li:hover::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: orange;
+    bottom: -37px;
+    left: 0; 
+}
+section {
+    display: flex;
+    margin: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.preview img {
+    width: 100%;
+    border-radius: 10px;
+}
+.thumb img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.thumb {
+    display: flex;
+    gap: 10px;
+    /* width: 500px; */
+}
+
+.test {
+    flex: 1;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.test h4 {
+   color:  orange 
+}
+.test h3 {
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: larger;
+}
+.test p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: smaller;
+    color: rgb(209, 209, 209);
+}
+.test h5 {
+    font-size: medium;
+}
+
+.btn button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#fifty {
+    color: orange;
+}
+#two {
+    color: rgb(202, 202, 202);
+}
+
+.btns .counter {
+    padding: 5px;
+    color: black;
+}#minus {
+    color: orange;
+    padding: 5px;
+}#plus {
+    color: orange;
+    padding: 5px;
+}
+#cart {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btns {
+    padding-top: 20px;
+}
+
